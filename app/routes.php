@@ -26,3 +26,5 @@ Route::post("register", array("uses" => "UserController@doRegister"));
 Route::post("newtimer", array("uses" => "HomeController@createTimer"));
 
 Route::get("stoptimer/{id}", array("uses" => "HomeController@stopTimer"));
+
+Route::get("starttimer/{id}", array("uses" => "HomeController@startTimer"));

@@ -29,7 +29,8 @@ class HomeController extends BaseController {
 		}
 
 		return View::make('timers', array(
-			"timers" => Auth::user()->timers()->orderBy("start")->get(),
+			"user" =>Auth::user(),
+			"timers" => Auth::user()->timers()->orderBy("name")->get(),
 		));
 	}
 
@@ -62,6 +63,16 @@ class HomeController extends BaseController {
 		}
 
 		Auth::user()->timers()->where("id", "=", $id)->firstOrFail()->stopTimer();
+
+		return Redirect::to("/");
+	}
+
+	public function startTimer($id) {
+		if(!Auth::check()) {
+			return Redirect::to("login");
+		}
+
+		Auth::user()->timers()->where("id", "=", $id)->firstOrFail()->startTimer();
 
 		return Redirect::to("/");
 	}
