@@ -19,6 +19,6 @@ I do understand the idea Angular or javascript framework, it's mainly about maki
 
 I would of got the timer part right, I felt that I didn't do it the proper way, mainly because I had limited time, deadline and other things is life, such as working out at the Gym.
 
-# General
+### General
 
 I have used a bit of javascript/jQuery on the timer page (front page) to increment the second every second.
