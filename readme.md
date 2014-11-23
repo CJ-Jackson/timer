@@ -4,10 +4,10 @@
 
 Using Laravel framework was not much of a challenge at all the whole framework was well thought out
 the developers behind the framework seems to be well aware of the design flaws in PHP, such as lack of
-'lexical scoping', while working with that framework I have touch the keyword 'global' which is very easy
+'lexical scoping', while working with that framework I have never touch the keyword 'global' which is very easy
 to forget.
 
-The main challenges were mainly getting the database design right and doing the math with timers.
+The main challenges were mainly getting the database design right and doing the math with timers.  I added the 'seconds' method to timer so I can easily use it into the template.
 
 ### What would I do next?
 
