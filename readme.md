@@ -15,4 +15,4 @@ If I had a bit more time, I would of learned Angular.js and implemented it into 
 
 ### What would I do differently, if I started the task again?
 
-I would got the timer right, I felt that I didn't do it the proper way, mainly because I had limited time, deadline and other things is life, such as working out at the Gym.
+I would of got the timer right, I felt that I didn't do it the proper way, mainly because I had limited time, deadline and other things is life, such as working out at the Gym.
