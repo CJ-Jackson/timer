@@ -87,3 +87,21 @@ I can archive responsive design, easy, go by the width of the device.
 </section>
 
 @stop
+
+@section("javascript")
+<script type"text/javascript">
+// Second Increment.
+window.setInterval(function() {
+
+	$(".second-going").each(function() {
+		var n = Number($(this).children(".tick").text());
+		n++;
+		$(this).children(".tick").text(n);
+		var nn = Number($(".total-tick").text());
+		nn++;
+		$(".total-tick").text(nn);
+	});
+
+}, 1000)
+</script>
+@stop
