@@ -54,7 +54,7 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'varch.local', // Bonjour (Zeroconfig)
+			'host'      => 'archlinux.local', // Bonjour (Zeroconfig)
 			'database'  => 'forge',
 			'username'  => 'forge',
 			'password'  => 'forge',
